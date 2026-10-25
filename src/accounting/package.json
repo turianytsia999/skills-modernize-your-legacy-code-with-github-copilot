@@ -1,0 +1,14 @@
+{
+  "name": "student-accounting",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Node.js modernization of the COBOL student account application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test test/accounting.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
